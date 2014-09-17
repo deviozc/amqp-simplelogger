@@ -3,11 +3,11 @@ package main
 import (
 	"code.google.com/p/goprotobuf/proto"
 	"fmt"
+	"github.com/amqp-simplelogger/config"
+	"github.com/amqp-simplelogger/message"
+	"github.com/amqp-simplelogger/rabbitmq/workQueue"
 	"github.com/streadway/amqp"
 	"labix.org/v2/mgo"
-	"local/will/logger/config"
-	"local/will/logger/message"
-	"local/will/rabbitmq/workQueue"
 	"runtime"
 	"time"
 )
