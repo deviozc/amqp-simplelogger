@@ -1,0 +1,8 @@
+package message;
+
+message LogMessage {
+  required string message = 1;
+  required int64 timestamp = 2;
+  required int32 type = 3 [default=1];
+  required string fromService = 4;
+}
